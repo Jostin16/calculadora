@@ -15,7 +15,6 @@ html{
 }
 
 body{
-    /* height: 100vh; */
     background: radial-gradient(circle at 21.65% 99.1%, #ffffff 0, #b2c8e8 50%, #648cbd 100%);
 }
 
@@ -51,8 +50,7 @@ h1{
 }
 
 .result{
-    width: 30%;
-    height: 100%;
+    width: 40%;
     display: flex;
     justify-content: end;
     font-size: 2em;
@@ -60,9 +58,10 @@ h1{
     background-color: hsl(0, 0%, 0%);
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
-    padding: 10px;
+    padding: 10px 15px;
     animation-duration: 3s;
     animation-name: slidein;
+    overflow-x: auto;
     
     
 }
@@ -93,7 +92,6 @@ h1{
 
 .buttons{
     width: 100%;
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -132,7 +130,6 @@ h1{
 }
 
 .clean{
-    width: 100%;
     background-color: indigo;
     text-align: center;
     width: 100px;
@@ -142,12 +139,12 @@ h1{
 
 .btn-clean{
     width: 100%;
-    /* height: 100%; */
     border: none;
     background-color: transparent;
     font-size: 1.5em;
     color: hsl(0, 0%, 100%);
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .btn-clean:hover{
@@ -198,11 +195,11 @@ h1{
         font-size: 1em;
     }
     .clean{
-        width: 10%;
+        width: 20%;
         font-size: 1em;
     }
     .btn-clean{
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .btn-equal{
         font-size: 1em;
@@ -214,3 +211,5 @@ footer{
     text-align: center;
     margin: 2rem 0 0;
 }
+
+
