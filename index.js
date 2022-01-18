@@ -15,7 +15,6 @@ numberButtons.forEach(button => {
                 button.disabled = true
             }
         }
-        console.log(result.innerText);
     })
 })
 
@@ -30,7 +29,6 @@ deleteButton.addEventListener('click', () => {
 operationButtons.forEach(button => {
     button.addEventListener('click', () => {
         result.innerText += button.innerText
-        console.log(result.innerText);
     })
 })
 
